@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grid Test" duration-ms="8961" started-at="2019-12-14T17:44:42 IST" finished-at="2019-12-14T17:44:51 IST">
+    <groups>
+    </groups>
+    <test name="Test Browser 1" duration-ms="5821" started-at="2019-12-14T17:44:42 IST" finished-at="2019-12-14T17:44:48 IST">
+      <class name="parallel.GridTest">
+        <test-method status="PASS" signature="broweserTest(java.lang.String)[pri:0, instance:parallel.GridTest@731a74c]" name="broweserTest" duration-ms="5787" started-at="2019-12-14T17:44:42 IST" finished-at="2019-12-14T17:44:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broweserTest -->
+      </class> <!-- parallel.GridTest -->
+    </test> <!-- Test Browser 1 -->
+    <test name="Test Browser 2" duration-ms="3081" started-at="2019-12-14T17:44:48 IST" finished-at="2019-12-14T17:44:51 IST">
+      <class name="parallel.GridTest">
+        <test-method status="PASS" signature="broweserTest(java.lang.String)[pri:0, instance:parallel.GridTest@cd2dae5]" name="broweserTest" duration-ms="3078" started-at="2019-12-14T17:44:48 IST" finished-at="2019-12-14T17:44:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broweserTest -->
+      </class> <!-- parallel.GridTest -->
+    </test> <!-- Test Browser 2 -->
+  </suite> <!-- Grid Test -->
+</testng-results>
